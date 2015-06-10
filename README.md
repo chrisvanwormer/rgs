@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Foundation Compass Template
 
 The easiest way to get started with Foundation + Compass.
@@ -27,3 +28,6 @@ If you'd like to upgrade to a newer version of Foundation down the road just run
 ```bash
 bower update
 ```
+=======
+# rgs
+>>>>>>> 0c3d7864e625ec5ab75818f51fee91e9c276788c
