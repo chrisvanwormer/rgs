@@ -70,6 +70,47 @@
   }
 }
 
+.rgs-gallery-hero {
+  height:25em;
+  background-color: #008CBA;
+}
+
+.rgs-gallery-1 {
+  padding:2em 0px;
+}
+
+.rgs-gallery-2 {
+  padding:2em 0px;
+  background-color: #C6E746;
+
+  ul {
+    li {
+      img {
+        border: solid 4px #FFFFFF;
+        box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+      }
+    }
+  }
+}
+
+.rgs-gallery-3 {
+  background-color: #1cc7ff;
+  i {
+    display:inline-block;
+    color:white;
+    @media only screen and (min-width: 40.063em) {
+      font-size:4em;
+      padding:0px 1em 0px 1em;
+      &:hover {
+        color:#009900;
+        cursor: pointer;
+      }
+    }
+    font-size:3em;
+    padding:0px 0.675em 0px 0.675em;
+  }
+}
+
 .rgs-footer {
   background-color:gray;
   padding:1em 0px;
