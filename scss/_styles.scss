@@ -7,6 +7,11 @@
         font-size:1.675em !important;
         color:white;
       }
+      @media only screen and (min-width: 40.063em) {
+        &:hover {
+          border-bottom: solid 3px yellow;
+        }
+      }
     }
   }
 }
