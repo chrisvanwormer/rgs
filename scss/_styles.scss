@@ -27,6 +27,11 @@ p {
   }
 }
 
+nav.top-bar:not(.expanded) {
+  text-align: center;
+  section.top-bar-section { display: inline-block; }
+}
+
 .toggle-topbar {
   right:40% !important;
   a {
