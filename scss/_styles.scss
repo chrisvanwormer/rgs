@@ -1,17 +1,39 @@
+h1 {
+  font-family: $font-family-roboto !important;
+  font-weight:300 !important;
+}
+
+p {
+  font-family: $font-family-roboto !important;
+  font-weight:400 !important;
+}
+
 .top-bar-section {
-  text-align: center !important;
   ul {
     text-align: center;
     li {
       a {
         font-size:1.675em !important;
         color:white;
+        font-family: $font-family-roboto !important;
+        font-weight:100 !important;
       }
       @media only screen and (min-width: 40.063em) {
         &:hover {
           border-bottom: solid 3px yellow;
         }
       }
+    }
+  }
+}
+
+.toggle-topbar {
+  right:40% !important;
+  a {
+    span {
+      font-family: $font-family-roboto;
+      font-weight:100;
+      font-size:2em;
     }
   }
 }
