@@ -24,7 +24,7 @@ nav {
     div {
       p {
         display: block;
-        font-size: 0.75em;
+        font-size: 0.9375em;
         margin-top: 1em;
         font-family: $font-family-josefin !important;
       }
@@ -50,6 +50,7 @@ nav {
 
           a {
             color: #7f7f7f;
+            font-size:1.125em;
 
             &:hover {
               border-bottom:solid thin #7f7f7f;
@@ -129,14 +130,14 @@ nav.top-bar:not(.expanded) {
 
   .mobile-address {
     font-family: $font-family-josefin !important;
-    font-size:0.675em;
+    font-size:0.875em;
     text-align: center;
     margin-bottom:0.5em;
   }
 
   .mobile-phone {
     font-family: $font-family-josefin !important;
-    font-size:0.675em;
+    font-size:0.875em;
     text-align: center;
     margin-bottom:0.5em;
   }
@@ -151,9 +152,11 @@ nav.top-bar:not(.expanded) {
   padding:4em 0px;
   h1 {
     font-family:$font-family-josefin !important;
+    font-size:3em;
   }
   p {
     font-family:$font-family-josefin !important;
+    font-size:1.25em;
   }
 }
 
@@ -303,20 +306,27 @@ nav.top-bar:not(.expanded) {
 
 
 .rgs-footer {
-  background-color: #d9d2c9;
+  background-color: #e9e0db;
   padding:1em 0px;
 
+  .latestupdates {
+    margin-top: 1.6em !important;
+  }
+
   h1 {
-    font-size: 1em;
+    font-size: 1.25em;
     font-family: $font-family-josefin;
     text-align:center;
     font-weight:bold;
+    color:#505050;
   }
 
   p {
-    font-size:0.75em;
+    font-size:0.9375em;
     font-family: $font-family-josefin !important;
     text-align:center;
+    color:#505050;
+    margin-bottom:0.75em;
   }
 
   ul {
@@ -329,27 +339,28 @@ nav.top-bar:not(.expanded) {
 
       i {
         font-size:3em;
+        color:#505050;
       }
     }
   }
 
   .footer-1 {
     @media only screen and (min-width: 40.063em) {
-      border-right: solid thin #574c48;
+      border-right: solid thin #9a9592;
     }
-    height: 11.5em;
+    height: 14em;
   }
 
   .footer-2 {
     @media only screen and (min-width: 40.063em) {
-      border-right: solid thin #574c48;
+      border-right: solid thin #9a9592;
     }
-    height: 11.5em;
+    height: 14em;
   }
 }
 
 .rgs-base-footer {
-  background-color: #574c48;
+  background-color: #505050;
   height:2.5em;
   ul {
     list-style: none;
@@ -370,7 +381,7 @@ nav.top-bar:not(.expanded) {
 }
 
 .button {
-  background-color: #bbad9c !important;
+  background-color: #bead9a !important;
   border-bottom: 2px solid #a39884 !important;
 
   &:hover {
