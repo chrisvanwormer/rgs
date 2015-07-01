@@ -54,7 +54,8 @@ nav {
             font-size:1.125em;
 
             &:hover {
-              border-bottom:solid thin #7f7f7f;
+              border-bottom:solid thin #b9c3ba;
+              color:#b9c3ba;
             }
 
           }
@@ -146,7 +147,10 @@ nav.top-bar:not(.expanded) {
 
 .rgs-hero {
   height:25em;
-  background-color: #008CBA;
+  background-color: #b9c3ba;
+  background-image:url('/img/gallery5.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .rgs-home-1 {
