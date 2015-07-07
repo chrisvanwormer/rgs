@@ -366,6 +366,11 @@ nav.top-bar:not(.expanded) {
       i {
         font-size:3em;
         color:#505050;
+
+        &:hover {
+          color:#b9c3ba;
+          cursor: pointer;
+        }
       }
     }
   }
