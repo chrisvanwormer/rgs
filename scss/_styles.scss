@@ -19,8 +19,8 @@ nav {
   }
   @media only screen and (min-width: 40.063em) {
     background-color: #FFFFFF;
-    height: 15em !important;
-    margin-top: 2em;
+    height: 23em !important;
+    margin-top: 0.875em;
     div {
       p {
         display: block;
@@ -33,6 +33,10 @@ nav {
       display:block;
       text-align: center;
       font-family: $font-family-meddon !important;
+      img {
+        height:4em;
+        margin-bottom:0.5em;
+      }
     }
     section.fullmenu {
       display: block;
@@ -128,6 +132,9 @@ nav.top-bar:not(.expanded) {
     text-align: center;
     border-top:solid thin #000000;
     padding-top:0.5em;
+    img {
+      height:4em;
+    }
   }
 
   .mobile-address {
@@ -148,7 +155,7 @@ nav.top-bar:not(.expanded) {
 .rgs-hero {
   height:25em;
   background-color: #b9c3ba;
-  background-image:url('/img/gallery5.jpg');
+  background-image:url('/img/gallery/gallery5.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -185,7 +192,14 @@ nav.top-bar:not(.expanded) {
 
 .rgs-about-hero {
   height:25em;
-  background-color: #008CBA;
+  background-color: #7f7f7f;
+  background:url('/img/hero/about.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  @media only screen and (min-width: 40.063em) {
+    background-position: center;
+    height:35em;
+  }
 }
 
 .rgs-about-1 {
