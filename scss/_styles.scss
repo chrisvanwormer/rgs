@@ -226,10 +226,11 @@ nav.top-bar:not(.expanded) {
 }
 
 .rgs-hero {
-  height:27em;
-  padding-top:1em;
-  padding-bottom:1em;
-  background-color: #b9c3ba;
+  height:26.5em;
+  padding-top:.5em;
+  padding-bottom:.5em;
+  border-top:solid .25em #b9c3ba;
+  border-bottom:solid .27em #b9c3ba;
 }
 
 .rgs-hero-image {
@@ -271,6 +272,17 @@ nav.top-bar:not(.expanded) {
 }
 
 .rgs-about-hero {
+  height:26.5em;
+  padding-top:.5em;
+  padding-bottom:.5em;
+  border-top:solid .25em #b9c3ba;
+  border-bottom:solid .27em #b9c3ba;
+  @media only screen and (min-width: 40.063em) {
+    height:36.5em;
+  }
+}
+
+.rgs-about-hero-image {
   height:25em;
   background-color: #7f7f7f;
   background:url('/img/hero/about.jpg');
@@ -313,6 +325,14 @@ nav.top-bar:not(.expanded) {
 }
 
 .rgs-gallery-hero {
+  height:26.5em;
+  padding-top:.5em;
+  padding-bottom:.5em;
+  border-top:solid .25em #b9c3ba;
+  border-bottom:solid .27em #b9c3ba;
+}
+
+.rgs-gallery-hero-image {
   height:25em;
   background-color: #008CBA;
 }
