@@ -226,6 +226,13 @@ nav.top-bar:not(.expanded) {
 }
 
 .rgs-hero {
+  height:27em;
+  padding-top:1em;
+  padding-bottom:1em;
+  background-color: #b9c3ba;
+}
+
+.rgs-hero-image {
   height:25em;
   background-color: #b9c3ba;
   background-image:url('/img/gallery/gallery5.jpg');
