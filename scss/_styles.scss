@@ -7,7 +7,7 @@
   background-color: #FFFFFF !important;
 }
 
-nav {
+nav.index {
   h1 {
     display: none;
   }
@@ -20,6 +20,77 @@ nav {
   @media only screen and (min-width: 40.063em) {
     background-color: #FFFFFF;
     height: 23em !important;
+    margin-top: 0.875em;
+    div {
+      p {
+        display: block;
+        font-size: 1.05em;
+        margin-top: 0.25em;
+        margin-bottom: 1.75em;
+        font-family: $font-family-josefin !important;
+        color:#7f7f7f;
+      }
+    }
+    h1 {
+      display:block;
+      text-align: center;
+      font-family: $font-family-meddon !important;
+      img {
+        height:4em;
+        margin-bottom:0.5em;
+      }
+    }
+    section.fullmenu {
+      display: block;
+      width: 100%;
+      div.left-line {
+        height: 2em;
+        border-bottom: thin solid #9a9592;
+      }
+      ul {
+        li {
+          display: inline-block;
+          padding: 0.875em;
+          font-family: $font-family-josefin !important;
+          font-weight:bold;
+          text-transform: uppercase;
+
+          a {
+            color: #505050;
+            font-size:1.125em;
+
+            &:hover {
+              border-bottom:solid thin #b9c3ba;
+              color:#b9c3ba;
+            }
+
+          }
+        }
+      }
+      div.right-line {
+        height: 2em;
+        border-bottom: thin solid #9a9592;
+      }
+    }
+    section.top-bar-section {
+      display: none !important;
+    }
+  }
+}
+
+nav.sidepage {
+  h1 {
+    display: none;
+  }
+  section.fullmenu {
+    display: none;
+  }
+  p {
+    display: none;
+  }
+  @media only screen and (min-width: 40.063em) {
+    background-color: #FFFFFF;
+    height: 15em !important;
     margin-top: 0.875em;
     div {
       p {
