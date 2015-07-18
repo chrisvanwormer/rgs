@@ -107,7 +107,7 @@ nav.sidepage {
       text-align: center;
       font-family: $font-family-meddon !important;
       img {
-        height:4em;
+        height:1.5em;
         margin-bottom:0.5em;
       }
     }
@@ -207,6 +207,36 @@ nav.top-bar:not(.expanded) {
     padding-top:0.5em;
     img {
       height:4em;
+    }
+  }
+
+  .mobile-address {
+    font-family: $font-family-josefin !important;
+    font-size:0.875em;
+    text-align: center;
+    margin-bottom:0.5em;
+  }
+
+  .mobile-phone {
+    font-family: $font-family-josefin !important;
+    font-size:0.875em;
+    text-align: center;
+    margin-bottom:0.5em;
+  }
+}
+
+.mobile-title.sidepage {
+  @media only screen and (min-width: 40.063em) {
+    display:none;
+  }
+  p {
+    font-family: $font-family-meddon !important;
+    font-size:1.5em;
+    text-align: center;
+    border-top:solid thin #000000;
+    padding-top:0.5em;
+    img {
+      height:1.5em;
     }
   }
 
