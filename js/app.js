@@ -10,7 +10,7 @@ $(document).ready(function() {
         var formMessage = $('#message').val();
         var formdata    = 'firstname=' + formFirstName + '&lastname=' + formLastName + '&email=' + formEmail + '&message=' + formMessage;
         $('#content-thank-you').foundation('reveal', 'open', {
-            url: '/foundation/php/app.php?script=message',
+            url: '/php/app.php?script=message',
             type: 'POST',
             data: formdata,
             success: function(data) {
@@ -20,7 +20,30 @@ $(document).ready(function() {
             },
             error: function(data) {
 
-                var html = '<img src="img/logo_black.svg" /><h4 class="clickit-section-centered-text">We\'re sorry. Something funky happened.  Please try again.</h4><a class="close-reveal-modal">&#215;</a>';
+                var html = '<h4 class="clickit-section-centered-text">We\'re sorry. Something funky happened.  Please try again.</h4><a class="close-reveal-modal">&#215;</a>';
+                $('#content-thank-you').html(html);
+                $('#content-thank-you').foundation('reveal', 'open');
+            }
+        });
+        return false;
+    });
+
+    $('#sendNewsletter').on('click', function() {
+        // grab form field data
+        var formEmail   = $('#newsletterEmail').val();
+        var formdata    = 'email=' + formEmail;
+        $('#content-thank-you').foundation('reveal', 'open', {
+            url: '/php/app.php?script=newsletter',
+            type: 'POST',
+            data: formdata,
+            success: function(data) {
+                //$('#messageName').val('');
+                //$('#messageEmail').val('');
+                //$('#messageMessage').val('');
+            },
+            error: function(data) {
+
+                var html = '<h4 class="clickit-section-centered-text">We\'re sorry. Something funky happened.  Please try again.</h4><a class="close-reveal-modal">&#215;</a>';
                 $('#content-thank-you').html(html);
                 $('#content-thank-you').foundation('reveal', 'open');
             }
