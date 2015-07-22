@@ -256,7 +256,7 @@ nav.top-bar:not(.expanded) {
 }
 
 .rgs-hero {
-  height:26.5em;
+  height:36.5em;
   padding-top:.5em;
   padding-bottom:.5em;
   border-top:solid .25em #b9c3ba;
@@ -264,11 +264,12 @@ nav.top-bar:not(.expanded) {
 }
 
 .rgs-hero-image {
-  height:25em;
+  height:35em;
   background-color: #b9c3ba;
-  background-image:url('/img/gallery/gallery5.jpg');
+  background-image:url('/img/hero/home.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: 50% 80%;
 }
 
 .rgs-home-1 {
