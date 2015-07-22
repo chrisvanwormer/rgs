@@ -46,7 +46,6 @@ if (isset($_GET['script'])) {
         $mail->From = 'no-reply@rivergardenstudio.com';
         $mail->FromName = 'River Garden Studio Web';
         $mail->addAddress('richard.fisher@rivergardenstudio.com');
-        $mail->addAddress('cvanwormer@gmail.com');
         $mail->Subject = 'Website Contact Submission';
 
         $body = "First Name: " . $firstname . "\n";
@@ -105,7 +104,6 @@ if (isset($_GET['script'])) {
         $mail->From = 'no-reply@rivergardenstudio.com';
         $mail->FromName = 'River Garden Studio Web';
         $mail->addAddress('richard.fisher@rivergardenstudio.com');
-        $mail->addAddress('cvanwormer@gmail.com');
         $mail->Subject = 'Website Newsletter Submission';
 
         $body = "Submitted Newsletter Email Address: " . $email . "\n";
