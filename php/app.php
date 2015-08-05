@@ -122,7 +122,7 @@ if (isset($_GET['script'])) {
         //mail('hello@clickitdigital.com', 'Website Contact Submission', $sendmessage);
 
         $html = '
-                 <h4 class="clickit-section-centered-text">Thanks much! You will be hearing back from us shortly.</h4>
+                 <h4 class="clickit-section-centered-text">Thank you for signing up!</h4>
                  <a class="close-reveal-modal">&#215;</a>';
         echo $html;
     }
