@@ -5,6 +5,12 @@
 
 .top-bar {
   background-color: #FFFFFF !important;
+
+  h1 {
+    .sidelogo-desktop {
+      font-family: $font-family-josefin !important;
+    }
+  }
 }
 
 nav.index {
@@ -199,6 +205,7 @@ nav.top-bar:not(.expanded) {
   @media only screen and (min-width: 40.063em) {
     display:none;
   }
+
   p {
     font-family: $font-family-meddon !important;
     font-size:1.5em;
@@ -207,6 +214,9 @@ nav.top-bar:not(.expanded) {
     padding-top:0.5em;
     img {
       height:4em;
+    }
+    .sidelogo-mobile {
+      font-family: $font-family-josefin !important;
     }
   }
 
